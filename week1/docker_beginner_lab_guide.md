@@ -19,7 +19,7 @@ In this first phase, we inspect local Docker images, download specific image ver
 Here, we download the `mongo` image and learn how to manually create, start, inspect, stop, and delete a container using its auto-generated ID.
 
 | Step | Action / Description | Commands |
-| :--- | :--- | :--- | :--- |
+| :--- | :--- | :--- |
 | **2.1** | Pull the `mongo` image and create a new container instance (this generates a unique container ID without starting it yet). | `docker pull mongo`<br>`docker create mongo` | 
 | **2.2** | Start the container using its full ID and check running containers with `docker ps`. | `docker start 3284cd0bddc36f442b9c0a0835adf397776e9a9f17626f73a0474e288823c194`<br>`docker ps` | 
 | **2.3** | Stop the running container using its short ID, check running containers (`ps`), and view all containers including stopped ones (`ps -a`). | `docker stop 3284cd0bddc3`<br>`docker ps`<br>`docker ps -a` | 
