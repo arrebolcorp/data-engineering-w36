@@ -1,4 +1,4 @@
-# Git Beginner Lab: Step-by-Step Workflow Guide by Alan Soto
+# Git Beginner Lab: Step-by-Step Workflow Guide
 
 This document outlines the fundamental workflow for initializing, managing, and collaborating on a Git repository, from initial local setup to pushing changes to a remote GitHub repository.
 
