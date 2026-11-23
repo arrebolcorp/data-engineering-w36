@@ -2,6 +2,8 @@
 
 This document covers a complete multi-container workflow using a Node.js (`Express` + `Mongoose`) application connected to a `MongoDB` database. It transitions from manual container networking to automated orchestration using **Docker Compose**, persistent volumes, and live-reloading development environments.
 
+Download the directory of the practice here [mongoapp-docker-p1](https://github.com/arrebolcorp/data-engineering-w36/tree/main/mongoapp-docker-p1)
+
 ---
 
 ## Project Architecture Overview
